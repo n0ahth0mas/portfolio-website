@@ -19,8 +19,8 @@ body {
 }
 
 .content-section {
-    padding-top: 7.5rem;
-    padding-bottom: 7.5rem
+    padding-top: 3rem;
+    padding-bottom: 1rem;
 }
 
 .content-section-heading h2 {
@@ -263,8 +263,9 @@ h6 {
 
 @media (min-width:992px) {
     .portfolio-item {
+		border-radius: 30px;
         max-width: none;
-        margin: 0
+        margin: 15px;
     }
     .portfolio-item .caption {
         -webkit-transition: -webkit-clip-path .25s ease-out, background-color .7s;
@@ -272,21 +273,25 @@ h6 {
         clip-path: inset(0)
     }
     .portfolio-item .caption .caption-content {
+		border-radius: 30px;
         transition: opacity .25s;
         margin-left: 5rem;
         margin-right: 5rem;
         margin-bottom: 5rem
     }
     .portfolio-item img {
+		border-radius: 30px;
         -webkit-transition: -webkit-clip-path .25s ease-out;
         -webkit-clip-path: inset(-1px);
         clip-path: inset(-1px)
     }
     .portfolio-item:hover img {
+		border-radius: 30px;
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem)
     }
     .portfolio-item:hover .caption {
+		border-radius: 30px;
         background-color: rgba(29, 128, 159, .9);
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem)
@@ -333,8 +338,8 @@ a:hover {
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-    background-color: #1D8BDD!important;
-    border-color: #1D8BDD!important;
+    background-color: ##1d809f!important;
+    border-color: ##1d809f!important;
 }
 
 .btn-secondary {
