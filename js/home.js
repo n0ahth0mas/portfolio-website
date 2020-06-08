@@ -1,6 +1,6 @@
 // JavaScript Document
 
-var content= [["The Uncanny Celebrity: Exploring the Implications of Virtual Influencers on Instagram", "This project, created for my Online Communication course, explores the, , , ", "content/digital_influencers/img.jpeg", "pages/influencer.html"]] ;
+var content= [["Hard Light: A Senior Thesis Project Exploring Transmedia Through Practical Application","sample text", "content/hard_light/gifBg.gif", "thesisLanding.html"],["The Uncanny Celebrity: Exploring the Implications of Virtual Influencers on Instagram", "This project, created for my Online Communication course, explores the, , , ", "content/digital_influencers/img.jpeg", "influencer.html"], ["Noah Thomas Video Portfolio","Video Portfolio", "content/reel.jpg", "videoPortfolio.html"]] ;
 var portfolio = document.getElementById("portfolioGrid");
 
 function populatePage(sample){

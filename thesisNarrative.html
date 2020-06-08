@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HARD LIGHT: UNIVERSE</title>
+</head>
+	
+	 <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">	
+	
+	<!-- Custom CSS -->
+	<link href="css/hardLight.css" rel="stylesheet">
+	<link href="css/bootstrap-4-3-1.css" rel="stylesheet">
+	<link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+
+<header>
+<div class="overlay"></div>
+	<img src="content/hard_light/gifBgLg.gif">
+	<div class="container h-100">
+		<div class="d-flex h-100 text-center align-items-center">
+  			<div class="w-100 text-white">
+				<h1 class="display-3">HARD LIGHT</h1>
+				<p class="lead mb-0">The Transmedia Universe</p>
+  			</div>
+		</div>
+	</div>
+</header>
+
+	
+<body id="pgBody" style="align-content: center">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Character Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	
+<!-- Navigation -->
+  <a class="menu-toggle rounded" style="z-index: 5" href="index.html">
+    <i class="fas fa-home"></i>
+  </a>
+<!--	
+<div class="popOverlay">
+  <div class="videoBox" id="videobox">
+    <a class="close"></a>
+   <iframe src="https://drive.google.com/file/d/197eT0q6vrZdxcv0NlnxA-TwC5JC55eS_/view"></iframe>
+	  	<p>Creator Note: Changes to Project and Scope due to COVID-19</p>
+  </div>
+</div>
+-->
+
+<section id="Background" class="col-md-10 centered">
+	<div>
+	<h2 class="display-4"><i>Background</i></h2>
+	</div>
+	<hr>
+	<div>
+		Will be filled out in the near future.
+	</div>
+</section>
+
+<section id="Characters" class="col-lg-10 centered">
+	<div>
+		<h2 class="display-4"><i>Characters</i></h2>
+	</div>
+	<hr>
+	<div class="charPool">
+		<div class="charSpot col-lg-3" id="char1" onclick="popCharModal(0)" data-toggle="modal" data-target="#myModal">
+			<img src="content/hard_light/noah.jpg">
+			<div class="charText">NOAH</div>
+		</div>		
+		<div class="charSpot col-lg-3" id="char2" onclick="popCharModal(1)" data-toggle="modal" data-target="#myModal">
+			<img src="content/hard_light/athena.jpg">
+			<div class="charText">ATHENA</div>
+		</div>
+		<div class="charSpot col-lg-3" id="char3" onclick="popCharModal(2)" data-toggle="modal" data-target="#myModal">
+			<img src="content/hard_light/rose.png">
+			<div class="charText">ROSE</div>
+		</div>		
+		<div class="charSpot col-lg-3" id="char4" onclick="popCharModal(3)" data-toggle="modal" data-target="#myModal">
+			<img src="content/hard_light/violet.png">
+			<div class="charText">VIOLET</div>
+		</div>
+		
+	</div>
+</section>
+<!-- Vertical Timeline Inspired by https://codepen.io/savalazic/pen/QKwERN/ -->	
+
+	
+
+<section id="Universe" class="col-md-10 centered timeline">
+	<div>
+	<h2 class="display-4"><i>Narrative</i></h2>
+	</div>
+	<hr>
+	<div id="timelineBody">
+	</div>
+	<!--
+	<div class="tl_entry">
+		<div class="tl_right" >			
+			<div class="r_head">
+				<div class="tlHe-r">This is a header</div>
+				<div class="arrow-left"></div>
+			</div>
+			<div class="tlvid">
+				<video controls>
+  					<source src="movie.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div class="storyText">
+			</div>
+		</div>
+	</div>
+-->
+	</section>
+<!-- <button class="btn btn-success">Message From Creator</button> -->
+	
+<!-- Bootstrap core JavaScript -->
+  	<script src="vendor/jquery/jquery.min.js"></script>
+  	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+  	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom JS -->
+	<script src="js/thesisNarrative.js"></script>
+	
+<!-- Fancybox -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.portElement{
+	width: 600px!important;
+	height:350px!important;
+	overflow: hidden;
+}
+.portElementSM{
+	width: 350px!important;
+	height:200px!important;
+	overflow: hidden;
+}

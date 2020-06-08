@@ -1,0 +1,322 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#bgVid{
+	position: fixed;
+	right:0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+
+a, a:hover{
+	text-decoration: none;
+	color: inherit;
+}
+
+.research,.project{
+	position: relative;
+	color: white;
+	height: 100vh;
+	border: 5px solid white;
+	
+}
+
+.research h1, .project h1{
+	font-size: 4em;
+	margin-top: 35vh;
+	text-align: center;
+	text-shadow: 1px 1px black;
+	transform: scale(1.0);
+	transition: all .4s ease-in-out;
+}
+
+.headingText:hover{
+	transform: scale(1.5);
+	transition: all .4s ease-in-out;
+}
+
+.research{
+	float: left;
+	background-color: rgba(241, 127, 41, .5)
+}
+
+.project{
+	float: right;
+	background-color: rgba(73, 182, 255, .5)
+}
+
+.centered{
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#pgBody{
+	background-color: #e8edee
+}
+
+.charPool{
+	display: flex;
+	width: 100%;
+}
+
+.charSpot{
+	width: 24%;
+	height: 230px;
+	overflow: hidden;
+	transition: all .5s ease-in-out;
+  	-webkit-filter: grayscale(100%);
+  	filter: grayscale(100%);
+	transform: scale(1.0);
+	border-radius: 10px;
+}
+
+.charText{
+	position: absolute;
+	color: white;
+	padding-right: 5px;
+	font-size: 3rem;
+	top: 5%;
+	left: 0;
+	z-index: 1;
+	writing-mode: tb-rl;
+	transform: rotate(-180deg);
+	text-shadow: -1px -1px black;
+}
+
+.charSpot img{
+	height:100%;
+	align-self: center;
+}
+
+.charSpot:hover{
+	transition: all .2s ease-in-out;
+  	-webkit-filter: grayscale(0%);
+  	filter: grayscale(0%);
+	transform: scale(1.05);
+}
+
+.tl_entry{
+	width: 100%;
+	height: auto;
+	margin-bottom: -5%;
+	display: flex;
+}
+
+.tl_right, .tl_left{
+	width: 45%;
+	height: inherit;
+	border-radius: 15px;
+	padding-bottom: 15px;
+	
+}
+
+.tl_left{
+	box-shadow: 0 1px 3px -1px rgba(0, 0, 0, .6);
+	background-color: rgba(73, 182, 255, .1);
+	/*border: 5px solid rgba(241, 127, 41, .75);
+	/*border-left: 5px solid rgba(241, 127, 41, .75);*/
+}
+
+.tl_right{
+	box-shadow: 0 1px 3px -1px rgba(0, 0, 0, .6);
+	background-color: rgba(241, 127, 41, .1);
+	/*border: 5px solid rgba(73, 182, 255, .75);
+	/*border-right: 5px solid rgba(73, 182, 255, .75);*/
+	position:relative;
+	left:60%;
+}
+
+.r_head, .l_head{
+	height: 50px;
+	width: 100%;
+}
+
+.r_head{
+	background-color: rgba(241, 127, 41, 1);
+}
+
+.l_head{
+	background-color: rgba(73, 182, 255, 1);
+}
+
+.arrow-left, .arrow-right{
+	width: 0; 
+ 	height: 0;	
+	position: relative;
+ 	border-top: 25px solid transparent;
+ 	border-bottom: 25px solid transparent; 
+}
+.arrow-left {
+	left:-49px;
+  	border-right:50px solid rgba(241, 127, 41, 1); 
+}
+
+.arrow-right {
+	right:-49px;
+	float: right;
+  	border-left:50px solid rgba(73, 182, 255, 1); 
+}
+
+.tlHe-l, .tlHe-r, .nopad{
+	color: white;
+	font-size: 2rem;
+	text-shadow: 1px 1px black;
+	margin-left: 5px;
+}
+
+.tlHe-r{
+	position:relative;
+	top:-50px;
+	margin-right: 5px;
+	text-align: right;
+}
+.nopad{
+	position:relative;
+	margin-right: 5px;
+	text-align: right;
+}
+
+.tlvid{
+	margin-top: 10px;
+	height: 300;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.tlvid video{
+	width: 90%;
+	margin:auto;
+	display: flex
+}
+
+.tlvid img{
+	width: 90%;
+	margin:auto;
+	display: flex
+}
+.tlvid iframe{
+	width: 90%;
+	margin:auto;
+	display: flex
+}
+
+.storyText{
+	margin-top: 10px;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.btn-wrapper{
+	height:40px;
+}
+
+.btn-rt{
+	float: right;
+	margin-right:10px;	
+}
+
+.count{
+	height:50px;
+	width: 50px;
+	background-color: black;
+}
+
+/*@media (max-width: 1900px){
+	.tl_left, .tl_right{
+		width: 100%;
+	}
+}
+*/
+/* Header based on startbootstrap.com */
+header {
+  position: relative;
+  background-color: black;
+  height: 45vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/* Adapted from http://www.marcorpsa.com/ee/t2850.html */
+.popOverlay {
+  	width: 100%;
+  	background: rgba(0,0,0,.75);
+  	position: fixed;
+  	left: 0;
+  	top: 0;
+  	bottom: 0;
+  	right: 0;
+	z-index: 3;
+}
+
+.videoBox {
+  position: fixed;
+  width: 90%;
+  left: 50%;
+  top:50%;
+  transform: translateY(-50%) translateX(-50%);
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.videoBox video {
+  width: 100%;
+}
+
+.close {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  display: block;
+  background: transparent url(images/close.png) no-repeat center center;
+  opacity: .8;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+@media (min-width: 767px) {
+  .videoBox {
+    width: 50%;
+  }
+}
