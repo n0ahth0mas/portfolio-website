@@ -315,8 +315,24 @@ header .overlay {
   opacity: 1;
 }
 
-@media (min-width: 767px) {
-  .videoBox {
-    width: 50%;
-  }
+@media only screen and (max-width: 991px) {
+	.arrow-left, .arrow-right{
+		display: none;
+	}
+	.tlHe-r{
+		top: 0px;
+		text-align: left;
+	}
+	.nopad{
+		text-align: left;
+	}
+	.tl_entry{
+		margin-bottom: 5%;
+	}
+	.tl_left, .tl_right{
+		width: 100%;
+	}
+	.tl_right{
+		left:0;
+	}
 }

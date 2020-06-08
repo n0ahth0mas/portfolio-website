@@ -11,3 +11,23 @@
 	height:200px!important;
 	overflow: hidden;
 }
+
+@media only screen and (max-width: 1199px) {
+	img, iframe{
+		display: flex;
+		margin: auto;
+	}
+	.portElement{
+		width:75%!important;
+	}
+	.portElementSM{
+		width: 100%!important;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.portElement, .portElementSM{
+		height: 350px!important;
+		width: 100%!important;
+	}
+}
