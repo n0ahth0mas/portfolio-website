@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HELP! The Higher Education Learning Program</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/stylish-portfolio.min.css" rel="stylesheet">
+	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+	
+	<link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+</head>
+
+<body class="stackedit">
+	  <a class="homeBtn rounded" style="z-index: 5" href="index.html">
+    <i class="fas fa-home"></i>
+  </a>
+  <div style="margin: 5%"><h1 id="help-the-higher-education-learning-program">HELP! The Higher Education Learning Program <a href="https://github.com/n0ahth0mas/biomechanics-help"><button class="btn btn-dark">View on Github</button> </a><a href="https://helppugetsound.com"><button class="btn btn-dark">View Live Site</button> </a></h1>
+<p><br>Welcome to HELP, the Higher Education Learning Program! This project was created by <a href="https://github.com/ashbraden1">Braden Ash</a>, <a href="https://github.com/rbarraza21">Ricardo Barraza</a>, <a href="https://github.com/Jriles">Jack Riley</a>, and <a href="https://github.com/n0ahth0mas">Noah Thomas</a> for the University of Puget Sound’s Computer Science Capstone. The end goal of this project was to replace and update an online Biomechanics course created using a 1980s copy of Adobe Authorware. The current version of the system is up and running at <a href="helppugetsound.com">helppugetsound.com</a>, and can be tested by making a free account and enrolling in a demo class using the class code <strong><strong>DEMO</strong></strong>.
+	Note: this page is copied from the the github repo.
+	  </p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ol>
+<br>
+<li>
+<p><a href="#background">Background</a></p>
+</li>
+<li>
+<p><a href="#details">Project Details</a></p>
+</li>
+<li>
+<p><a href="#built">Built With</a></p>
+</li>
+<li>
+<p><a href="#authors">Authors</a></p>
+</li>
+<li>
+<p><a href="#ack">Acknowledgments</a></p>
+</li>
+</ol>
+<a>
+</a><h2 id="background">Background</h2>
+
+<p><br>Due the the nature of the University of Puget Sound’s Occupational Therapy Program, students often found themselves needing review for a handful of introductory biomechanics topics. However, because each student needed to review a different topic, there was no way the instructor  could refresh them on every topic.</p>
+<p>Thus, the original Help! program was born. The instructor of this course created a multi-part review system covering all introductory topics essential to the students’ success in the program using <a href="https://en.wikipedia.org/wiki/Adobe_Authorware">Adobe Authorware</a>. This multimedia study tool quizzed students on different biomechanical functions by asking them to watch certain clips of the Beatle’s movie <a href="https://en.wikipedia.org/wiki/Help!_(film)">Help!</a> and analyze what was happening in their bodies.</p>
+<p>This software was uploaded onto 8 Power Macintosh Computers. However, almost 30 year later, only one of these computers remains semi-functional.</p>
+<p><img src="content/help/screenshots/originalView1.png" alt="The Last Working Computer"></p>
+<p>In late Fall 2020, the instructor asked Computer Science students to develop a more modern and flexible version of this software, resulting in this project, the Higher Education Learning Program (HELP).</p>
+<a>
+</a><h2 id="details">Project Details</h2>
+
+<p><br>After taking all of the client’s needs into account, this project was developed with flexibility in mind - rather than content/helpally creating and populating a website, professors can dynamically create courses with chapters, sections, and questions. Each page can flexibility hold text, images, videos, and a quiz. Each quiz is populated with any combination of multiple choice, short answer, drag and drop, and point and click questions.</p>
+<h3 id="login-and-account-creation">Login and Account Creation</h3>
+<p>Users are immediately greeted with a dynamic home screen, highlighting some of the many use cases with this program. After entering the site, users are prompted to either create or login to an account. There are two account types: student and professor. Students can only enroll in classes, while professors can manage, create, and collaborate on these classes. This site is also equipped with password management, allowing users to reset their password via automated email.</p>
+
+<table>
+<thead>
+<tr>
+<th>HELP Splash Screen</th>
+<th>Login Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="content/help/screenshots/splash.png" alt="HELP Splash Screen"></td>
+<td><img src="content/help/screenshots/login.png" alt="Login Page"></td>
+</tr>
+</tbody>
+</table><h3 id="professor-home">Professor Home</h3>
+<p>Professors and students are each welcomed to the app with a home screen, allowing them to view their list of classes, along with basic profile editing functionality. Every professor view is also populated with question mark blocks, showing tip popups explaining how to perform actions relevant to the content of the page. Professors can also access a full tutorial from the navbar at any time.</p>
+
+<table>
+<thead>
+<tr>
+<th>Professor Home Page</th>
+<th>Tip Popup Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="content/help/screenshots/prof_home.png" alt="Professor Home Page"></td>
+<td><img src="content/help/screenshots/tip.png" alt="Tip Popup Example"></td>
+</tr>
+</tbody>
+</table><h3 id="creating-classes-chapters-and-sections">Creating Classes, Chapters, and Sections</h3>
+<p><br>Once a professor navigates to the class they want to edit, they are presented with the edit class page. Each class is made up of a set of chapters, which is made up of a set of sections. Each chapter and section must be published in order for students to be able to see that content. This allows professors to create content ahead of the time they want to roll it out to their students.</p>
+
+<table>
+<thead>
+<tr>
+<th>Edit Class Page</th>
+<th>Edit Chapter Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="content/help/screenshots/edit_class.png" alt="Edit Class Page"></td>
+<td><img src="content/help/screenshots/edit_chap.png" alt="Edit Chapter Page"></td>
+</tr>
+</tbody>
+</table><p><br>Professors can also edit sections. The section page is where the students will spend most of their time using the program, and as previously stated, holds a flexible amount of content. A section page is broken into 3 blocks: text, video, and quiz, in that order. Each section can hold an unlimited amount of content. A screenshot of the edit section page can be seen <a href="content/help/screenshots/FS_section.png">here</a>, as the image is too long to be visible in this readme.</p>
+<h3 id="creating-a-question">Creating a Question</h3>
+<p><br>There are four different variations of question elements. These elements can be mixed and matched in a quiz element. When creating a new quiz element, professors are prompted with this popup window asking for basic question details.</p>
+<p><img src="content/help/screenshots/add_question.png" alt="Add Question"></p>
+<p><br>After creating a question, professors can create the answers. Each question type can have multiple correct answers, and will not be visible if there are none. A screenshot of the edit question section page can be seen <a href="content/help/screenshots/FS_question.png">here</a>, as the image is too long to be visible in this readme.</p>
+<h3 id="previewing-the-section-page">Previewing the Section Page</h3>
+<p><br>After populating a section, a professor can preview their work from a student’s point of view. This project allows for easy switching between professor and student views, ensuring that a professor’s published page will meet their expectations once it goes live. If a professor populated a page using the same data from the project screenshots, their section page preview would be populated like this:</p>
+<p><img src="content/help/screenshots/FS_page.png" alt="Populated Section Page"></p>
+<h3 id="published-question-types">Published Question Types</h3>
+<p><br>As previously stated, there are four types of questions: Multiple Choice, Short Answer, Drag and Drop, and Point and Click. All of these are housed in the quiz box at the bottom of the section page. Once a student presses the start quiz button, the first question is presented. The student’s progess is automatically tracked throughout the quiz in a set of colored bubbles - grey = not taken, red = incorrect, orange = correct (second try or later), and green = correct (first try)</p>
+
+<table>
+<thead>
+<tr>
+<th>Multiple Choice Question</th>
+<th>Short Answer Question</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="content/help/screenshots/mc.png" alt="Multiple Choice Question"></td>
+<td><img src="content/help/screenshots/sa.png" alt="Short Answer Question"></td>
+</tr>
+</tbody>
+<thead>
+<tr>
+<th>Drag and Drop Question</th>
+<th>Point and Click Question</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="content/help/screenshots/dragndrop.png" alt="Drag and Drop Question"></td>
+<td><img src="content/help/screenshots/pointnclick.png" alt="Point and Click Question"></td>
+</tr>
+</tbody>
+</table><p>After submitting an answer to a question, the student is presented with a popup explaining why their answer was correct or incorrect. As this is a learning tool, it is important that students understand why their answer was marked the way it was, and are granted multiple tries to reach the right answer.</p>
+
+<table>
+<thead>
+<tr>
+<th>Correct</th>
+<th>Partially Correct</th>
+<th>Incorrect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="content/help/screenshots/correct_ans.png" alt="Correct"></td>
+<td><img src="content/help/screenshots/partial_ans.png" alt="Partially Correct"></td>
+<td><img src="content/help/screenshots/incorrect_ans.png" alt="Incorrect"></td>
+</tr>
+</tbody>
+</table><h3 id="glossary">Glossary</h3>
+<p><br>Each class also has a custom glossary that allows students to look up words important to their course. This glossary is accessible from the navbar on any page, and professors can edit the glossary from the chapter homepage at any time.</p>
+
+<table>
+<thead>
+<tr>
+<th>Glossary Creation</th>
+<th>Published Glossary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="content/help/screenshots/edit_gloss.png" alt="Glossary Creation"></td>
+<td><img src="content/help/screenshots/glossary.png" alt="Published Glossary"></td>
+</tr>
+</tbody>
+</table><a>
+</a><h2 id="built">Built With</h2>
+<br>
+<ul>
+<li>
+<p><a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a> - Python framework and boilerplate</p>
+</li>
+<li>
+<p><a href="https://www.sqlite.org/index.html">SQLite</a> - Database</p>
+</li>
+<li>
+<p><a href="https://aws.amazon.com/">Amazon Web Services</a> - Web hosting</p>
+</li>
+</ul>
+<a>
+</a><h2 id="authors">Authors</h2>
+<br>
+<p>All creators worked together in all aspects of this project. However, each person had a few central focuses for this project.</p>
+<ul>
+<li>
+<p><a href="https://github.com/ashbraden1">Braden Ash</a> - glossary, data translation and population, section page (text)</p>
+</li>
+<li>
+<p><a href="https://github.com/rbarraza21">Ricardo Barraza</a> - database manager, database integration, publishing and uploading,  professor portal</p>
+</li>
+<li>
+<p><a href="https://github.com/Jriles">Jack Riley</a> - flask guru, account and form system, professor and student portal, web hosting, quiz development (drag and drop, point and click), tooltips</p>
+</li>
+<li>
+<p><a href="https://github.com/n0ahth0mas">Noah Thomas</a> - front end framework, section page (video, quiz) and professor integration, quiz development (multiple choice, short answer), tooltips, readme</p>
+</li>
+</ul>
+<a>
+</a><h2 id="ack">Acknowledgments</h2>
+<br>
+<ul>
+<li>
+<p>David Chiu, our capstone professor</p>
+</li>
+<li>
+<p>George Tomlin, our patient and optimistic client</p>
+</li>
+<li>
+<p>University of Puget Sound Tech Services, ripping our copy of the film</p>
+</li>
+<li>
+<p>Occupational Therapy and Math/CS Departments, for their continued support throughout this project’s development</p>
+</li>
+</ul>
+</div>
+</body>
+		  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+	<script src="js/stylish-portfolio.min.js"></script>
+</html>

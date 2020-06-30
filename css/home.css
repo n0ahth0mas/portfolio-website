@@ -20,6 +20,21 @@
 	margin: 10px;
 }
 
+.portImgs{
+	height: 300px;
+	width: 525px;
+}
+
+.filled{
+	width: 525px!important;
+	height: 300!important;
+}
+
+.desc{
+	font-size: 1.4rem!important;
+	font-weight: 600!important;
+	 text-shadow: 2px 2px black;
+}
 .section1{
 	border-width: 10px;
 	border-style: solid;
