@@ -27,7 +27,7 @@ The current iteration of the timeline is responsive, allowing the narrative to b
 
 I also wanted to figure out some way to make the website feel impactful and exciting while also not distracting from the core story that I had worked so hard on. To achieve this, I looked at the websites for other film and media projects, and adapted a lot of their structure. This is the reasoning behind the animated header, and interactive character docs.
 
-I feel that this project page represents my flexibility in both creative coding and solutions to seemingly impossible problems. This page can be viewed here: [noahthom.com/thesislanding/html](http://noahthom.com/thesisLanding.html)
+I feel that this project page represents my flexibility in both creative coding and solutions to seemingly impossible problems. This page can be viewed here: [noahthom.com/thesislanding.html](http://noahthom.com/thesisLanding.html)
 
 
 
