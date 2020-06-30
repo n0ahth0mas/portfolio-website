@@ -1,68 +1,41 @@
-# [Start Bootstrap - Stylish Portfolio](https://startbootstrap.com/template-overviews/stylish-portfolio/)
+# Personal Website
 
-[Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.
+## Table of Contents
+- [Overview](#overview)
+- [HARD LIGHT](#hl)
+- [Source Code](#src)
 
-## Preview
 
-[![Stylish Portfolio Preview](https://startbootstrap.com/assets/img/screenshots/themes/stylish-portfolio.png)](https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/)
+<a name = "overview">
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/)**
+## Overview
+</a>
 
-## Status
+[noahthom.com](noahthom.com) is my personal and professional website, featuring my [portfolio](noahthom.com/#portfolio), [digital resume](noahthom.com/resume.html), [senior thesis project](#hl) and more. While some of this code is expanded upon [templates or snippits](#src), many other sections are completely coded by me.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-stylish-portfolio/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-stylish-portfolio.svg)](https://www.npmjs.com/package/startbootstrap-stylish-portfolio)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-stylish-portfolio.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-stylish-portfolio)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-stylish-portfolio/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-stylish-portfolio)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-stylish-portfolio/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-stylish-portfolio?type=dev)
 
-## Download and Installation
+<a name = "hl">
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/stylish-portfolio/)
-* Install via npm: `npm i startbootstrap-stylish-portfolio`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio)
+## HARD LIGHT
+</a>
 
-## Usage
+Instead of hashing through each individual section of the website, which would be very repetitive and uninteresting, I thought I would break down my Digital Media & Communication thesis project, [HARD LIGHT](noahthom.com/thesislanding/html). This was a two part project - half of the project was research on the [transmedia model](https://en.wikipedia.org/wiki/Transmedia_storytelling) of storytelling and why it was a suitable tool for independent creators, and the other half was a 27-part narrative spread over YouTube and Twitter based off of the previously mentioned research paper. Although this project was meant to be released in real time, the COVID-19 pandemic halted all in-person production of the YouTube videos. Because of this, many videos were unfinished and had to be created using alternate methods with the events happening in theoretical terms. However, this created an interesting issue for me - how was I going to display this story?
 
-### Basic Usage
+While figuring all of this out, I was also in the process of finishing up my [Computer Science Capstone](https://github.com/n0ahth0mas/biomechanics-help) project, which used a flexible layout for each section in a chapter of a class project. The emphasis on flexibility in that project inspired me to create a flexible timeline that would allow me to add and arrange content easily as I completed them. After analyzing a few examples online, I went to work creating my own layout.
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+The current iteration of the timeline is responsive, allowing the narrative to be viewable on both browser and mobile. To create each card, I utilized a JavaScript function that populates and displays nested divs based on the input data. By doing so, I was able to reduce the amount of code written, edit content quickly, and generate a simple yet effective interactive timeline.
 
-### Advanced Usage
+I also wanted to figure out some way to make the website feel impactful and exciting while also not distracting from the core story that I had worked so hard on. To achieve this, I looked at the websites for other film and media projects, and adapted a lot of their structure. This is the reasoning behind the animated header, and interactive character docs.
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+I feel that this project page represents my flexibility in both creative coding and solutions to seemingly impossible problems. This page can be viewed here: [noahthom.com/thesislanding/html](noahthom.com/thesislanding/html)
 
-#### Gulp Tasks
 
-- `gulp` the default task that builds everything
-- `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
 
-You must have npm installed globally in order to use this build environment.
+<a name = "src">
 
-## Bugs and Issues
+## Source Code
+</a>
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/stylish-portfolio/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+Some of the pages in this site are obtained or adapted from [startbootstrap.com](https://startbootstrap.com). Start Bootstrap was created by and is maintained by [David Miller](http://davidmiller.io/), Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/gh-pages/LICENSE) license.
