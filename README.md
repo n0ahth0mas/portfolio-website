@@ -11,7 +11,7 @@
 ## Overview
 </a>
 
-[noahthom.com](noahthom.com) is my personal and professional website, featuring my [portfolio](noahthom.com/#portfolio), [digital resume](noahthom.com/resume.html), [senior thesis project](#hl) and more. While some of this code is expanded upon [templates or snippits](#src), many other sections are completely coded by me.
+[noahthom.com](http://noahthom.com) is my personal and professional website, featuring my [portfolio](http://noahthom.com/#portfolio), [digital resume](http://noahthom.com/resume.html), [senior thesis project](#hl) and more. While some of this code is expanded upon [templates or snippits](#src), many other sections are completely coded by me.
 
 
 <a name = "hl">
@@ -19,7 +19,7 @@
 ## HARD LIGHT
 </a>
 
-Instead of hashing through each individual section of the website, which would be very repetitive and uninteresting, I thought I would break down my Digital Media & Communication thesis project, [HARD LIGHT](www.noahthom.com/thesislanding/html). This was a two part project - half of the project was research on the [transmedia model](https://en.wikipedia.org/wiki/Transmedia_storytelling) of storytelling and why it was a suitable tool for independent creators, and the other half was a 27-part narrative spread over YouTube and Twitter based off of the previously mentioned research paper. Although this project was meant to be released in real time, the COVID-19 pandemic halted all in-person production of the YouTube videos. Because of this, many videos were unfinished and had to be created using alternate methods with the events happening in theoretical terms. However, this created an interesting issue for me - how was I going to display this story?
+Instead of hashing through each individual section of the website, which would be very repetitive and uninteresting, I thought I would break down my Digital Media & Communication thesis project, [HARD LIGHT](noahthom.com/thesislanding/html). This was a two part project - half of the project was research on the [transmedia model](https://en.wikipedia.org/wiki/Transmedia_storytelling) of storytelling and why it was a suitable tool for independent creators, and the other half was a 27-part narrative spread over YouTube and Twitter based off of the previously mentioned research paper. Although this project was meant to be released in real time, the COVID-19 pandemic halted all in-person production of the YouTube videos. Because of this, many videos were unfinished and had to be created using alternate methods with the events happening in theoretical terms. However, this created an interesting issue for me - how was I going to display this story?
 
 While figuring all of this out, I was also in the process of finishing up my [Computer Science Capstone](https://github.com/n0ahth0mas/biomechanics-help) project, which used a flexible layout for each section in a chapter of a class project. The emphasis on flexibility in that project inspired me to create a flexible timeline that would allow me to add and arrange content easily as I completed them. After analyzing a few examples online, I went to work creating my own layout.
 
