@@ -20,7 +20,7 @@ var charBios = [{
 	name: "Violet",
 	fullname: "Violet LASTNAME ",
 	img: "content/hard_light/violet.png",
-	bio: "Violet, a current Chemistry & Phiolosophy major on the pre-med track, has shown promise in field. After being accepted to the most prestegious college medical program, innovators in the field are beginning to show interest in her prospects after college."	
+	bio: "Violet, a current Chemistry & Phiolosophy major on the pre-med track, has shown promise in field. After being accepted to the most prestegious college medical program, industry leaders are beginning to show interest in her prospects after college."	
 	},];
 
 var charHead = document.getElementById("modal-title");
